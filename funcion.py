@@ -6,7 +6,7 @@ class App:
     self.Mostrar_app()
 
 
-  def Mostrar_app(self,nombre,peso):
+  def Mostrar_app(self):
     print(f'La app se llama {self.nombre} y pesa {self.peso}')
 
 
