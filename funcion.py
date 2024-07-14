@@ -1,7 +1,15 @@
-def app(nombre,peso):
-  print(f'La app se llama {nombre} y pesa {peso}')
+class App:
+  def __init__(self,nombre,peso):
+    self.nombre = nombre
+    self.peso = peso
+    
+    self.Mostrar_app()
 
 
-app = Subway surf
+  def Mostrar_app(self,nombre,peso):
+    print(f'La app se llama {self.nombre} y pesa {self.peso}')
 
-peso = '123Mb'
+
+app = App('Subway surf','123Mb')
+
+
